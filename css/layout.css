@@ -36,5 +36,35 @@
         gap: 8px;
     }
 
+    .holographic-overlay-roxo{
+        left: 27px;
+        height: 96%;
+    }
+
+    .holographic-overlay-eletrico{
+        left: 27px;
+        height: 96%;
+    }
+
+    .holographic-overlay-planta{
+        left: 27px;
+        height: 96%;
+    }
+
+    .holographic-overlay-agua{
+        left: 27px;
+        height: 96%;
+    }
+
+    .holographic-overlay-pedra{
+        left: 27px;
+        height: 96%;
+    }
+
+    .holographic-overlay-fogo{
+        left: 27px;
+        height: 96%;
+    }
+
 }
 
