@@ -1,6 +1,5 @@
 const listaSelecaoPokedevs = document.querySelectorAll(".pokedev");
 
-// Lista de backgrounds para cada Pokémon
 const backgrounds = {
     gengar: 'url("./backgrounds/background-gengar.svg")',
     raichu: 'url("./backgrounds/background-raichu.svg")',
@@ -21,7 +20,6 @@ listaSelecaoPokedevs.forEach(pokedev => {
         desativarPokedevNaListagem();
         ativarPokedevSelecionadoNaListagem(idPokedevSelecionado);
 
-        // Mudar o background de acordo com o Pokémon selecionado
         mudarBackground(idPokedevSelecionado);
     });
 });
@@ -49,7 +47,6 @@ function esconderCartaoPokedev() {
     cartaoPokedevAberto.classList.remove("aberto");
 }
 
-// Função para mudar o background com base no Pokémon selecionado
 function mudarBackground(idPokedevSelecionado) {
     const backgroundUrl = backgrounds[idPokedevSelecionado];
     if (backgroundUrl) {
