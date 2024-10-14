@@ -2,14 +2,14 @@ const listaSelecaoPokedevs = document.querySelectorAll(".pokedev");
 
 // Lista de backgrounds para cada Pokémon
 const backgrounds = {
-    gengar: 'url("./backgrounds/background-gengar.webp")',
-    raichu: 'url("./backgrounds/background-raichu.webp")',
-    mewtwo: 'url("./backgrounds/background-mewtwo.webp")',
-    venusaur: 'url("./backgrounds/background-venusaur.webp")',
-    charizard: 'url("./backgrounds/background-charizard.webp")',
-    blastoise: 'url("./backgrounds/background-blastoise.jpg")',
-    tyranitar: 'url("./backgrounds/background-tyranitar.jpg")',
-    lucario: 'url("./backgrounds/background-lucario.jpg")'
+    gengar: 'url("./backgrounds/background-gengar.svg")',
+    raichu: 'url("./backgrounds/background-raichu.svg")',
+    mewtwo: 'url("./backgrounds/background-mewtwo.svg")',
+    venusaur: 'url("./backgrounds/background-venusaur.svg")',
+    charizard: 'url("./backgrounds/background-charizard.svg")',
+    blastoise: 'url("./backgrounds/background-blastoise.svg")',
+    tyranitar: 'url("./backgrounds/background-tyranitar.svg")',
+    lucario: 'url("./backgrounds/background-lucario.svg")'
 };
 
 listaSelecaoPokedevs.forEach(pokedev => {
