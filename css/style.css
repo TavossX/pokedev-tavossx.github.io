@@ -1,0 +1,207 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {  
+    background-image: url(../backgrounds/background-gengar.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    backdrop-filter: blur(5px);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pokedevs{
+    display: flex;
+    gap: 30px;
+    padding: 30px 0px;
+}
+
+.cartao-pokedev{
+    display: none;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cartao-pokedev.aberto{
+    display: block;
+}
+
+.cartao-pokedev .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-pokedev .nome{
+    margin-bottom:5px;
+}
+
+.cartao-pokedev .tipo{
+    background-color: #ffffff;
+    font-size: 12px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.cartao-pokedev .detalhes{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.cartao-pokedev .cartao-informacoes{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding:80px 30px 50px;
+    margin-top: -70px;
+    border-radius: 0 0 10px 10px;
+}
+
+.cartao-pokedev .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokedev .cartao-informacoes .descricao{
+    padding:0 10px;
+    font-size: 15px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.tipo-fantasma{
+    background: linear-gradient(45deg, black, #7f00b2);
+    border-radius: 10px;
+}
+
+.tipo-eletrico{
+    background: linear-gradient(45deg, rgb(136, 136, 136), #ffe600);
+    border-radius: 10px;
+}
+
+.tipo-psiquico{
+    background:linear-gradient(45deg, black, #ff00b3);
+    border-radius: 10px;
+}
+
+.tipo-fogo{
+    background:linear-gradient(45deg, rgb(255, 187, 0), #ff6600);
+    border-radius: 10px;
+}
+
+.tipo-planta{
+    background:linear-gradient(45deg, rgb(0, 60, 255), #2bff00);
+    border-radius: 10px;
+}
+
+.tipo-agua{
+    background:linear-gradient(45deg, rgb(0, 60, 255), #00ffff);
+    border-radius: 10px;
+}
+
+.tipo-pedra{
+    background:linear-gradient(45deg, rgb(167, 121, 61), #7a5d1c);
+    border-radius: 10px;
+}
+
+.tipo-luta{
+    background:linear-gradient(45deg, rgb(61, 167, 167), #fff2d7);
+    border-radius: 10px;
+}
+
+.listagem{
+    max-width: 200px;
+}
+
+.listagem .pokedev img{
+    width: 25%;
+}
+
+.listagem .pokedev{
+    background-color: #6b727a;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 30px 0px 0px 30px;
+    min-height: 70px;
+    transition: 0.20s ease-in-out;
+}
+
+.listagem .pokedev:hover{
+    transform: scale(1.1);
+}
+
+
+listagem .pokedev span{
+    padding-right: 20px;
+}
+
+.listagem .pokedev.ativo{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.712), #7f00b2);
+}
+
+.card-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+
+.card-image {
+    width: 75%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.card-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+@keyframes holographic {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

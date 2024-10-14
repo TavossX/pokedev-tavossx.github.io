@@ -1,0 +1,243 @@
+.holographic-overlay-planta {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),   
+                rgba(255, 255, 0, 0.3),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 0, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3));
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 20s  infinite linear;
+    z-index: 2; 
+}
+
+
+.holographic-overlay-planta {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),   
+                rgba(255, 255, 0, 0.3),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 0, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3));
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 20s  infinite linear;
+    z-index: 2; 
+}
+
+.holographic-overlay-eletrico {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),   
+                rgba(255, 255, 0, 0.3),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 0, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 255, 0, 0.3),  
+                rgba(0, 217, 255, 0.4),  
+                rgba(255, 255, 255, 0.3),  
+                rgba(75, 0, 130, 0.3));
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 20s  infinite linear;
+    z-index: 2; 
+}
+
+.holographic-overlay-roxo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),  
+                rgba(255, 0, 255, 0.3), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),  
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),  
+                rgba(255, 0, 255, 0.3), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),
+                rgba(255, 0, 255, 0.3), 
+                rgba(0, 217, 255, 0.4), 
+                rgba(255, 0, 255, 0.3), 
+                rgba(75, 0, 130, 0.3),  
+                rgba(255, 0, 255, 0.3));
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 25s  infinite linear;
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+
+.holographic-overlay-fogo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+                rgba(255, 98, 0, 0.431), 
+                rgba(255, 0, 0, 0.4), 
+                rgba(255, 196, 0, 0.3), 
+                rgba(130, 0, 0, 0.3),
+                rgba(255, 98, 0, 0.431), 
+                rgba(255, 0, 0, 0.4), 
+                rgba(255, 196, 0, 0.3), 
+                rgba(130, 0, 0, 0.3),
+                rgba(255, 98, 0, 0.431), 
+                rgba(255, 0, 0, 0.4), 
+                rgba(255, 196, 0, 0.3), 
+                rgba(130, 0, 0, 0.3),
+                rgba(255, 98, 0, 0.431), 
+                rgba(255, 0, 0, 0.4), 
+                rgba(255, 196, 0, 0.3), 
+                rgba(130, 0, 0, 0.3),
+                rgba(255, 98, 0, 0.431), 
+                rgba(255, 0, 0, 0.4), 
+                rgba(255, 196, 0, 0.3), 
+                rgba(130, 0, 0, 0.3)
+                );
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 20s  infinite linear;
+    z-index: 2;
+    
+}
+
+.holographic-overlay-agua {
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 40px;
+    width: 75%;
+    height: 97.5%;
+    background: linear-gradient(80deg, 
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5),
+rgba(173, 216, 230, 0.4),
+rgba(64, 224, 208, 0.3),
+rgba(32, 178, 170, 0.4),
+rgba(0, 128, 255, 0.5));
+    background-size: 200% 200%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 
+                inset 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: holographic 20s  infinite linear;
+    z-index: 2;
+    
+}
